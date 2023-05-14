@@ -8,7 +8,7 @@ app.use((req, res, next) => {
 	next()
 })
 
-app.use("/", (express.static("Public")))
+app.use("/", (express.static("/Public")))
 
 app.listen(PORT, () => {
 	console.log(`App Listening on port ${PORT}`)
