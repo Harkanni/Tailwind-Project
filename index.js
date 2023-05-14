@@ -10,10 +10,6 @@ app.use((req, res, next) => {
 
 app.use("/", (express.static("Public")))
 
-// app.get("/", (req, res) => {
-// 	res.send("<h1>Hello WORLD</h1>")
-// 	console.log("Request received")
-// })
 
 
 app.listen(PORT, () => {
