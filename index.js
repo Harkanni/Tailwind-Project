@@ -10,7 +10,6 @@ app.use((req, res, next) => {
 
 app.use("/", (express.static("Public")))
 
-
 app.listen(PORT, () => {
 	console.log(`App Listening on port ${PORT}`)
 })
